@@ -1,1 +1,36 @@
+Key Systems
+Card System
 
+The card system uses reusable C# data structures to define card effects, display information, and gameplay behavior. This structure makes it easier to add new cards without rewriting the core combat logic.
+
+Combat System
+
+The combat system manages player actions, enemy responses, damage resolution, debuffs, and battle feedback. Combat results are displayed through a dedicated combat log system.
+
+Enemy System
+
+Enemy behavior and enemy data are separated into different scripts. This makes enemy configuration easier to manage and extend.
+
+Save System
+
+The global save manager handles persistent game data and reset behavior. This supports testing, replayability, and player progression.
+
+Event System
+
+The event system supports branching choices and roguelike-style progression. Event data is separated from core game logic to improve maintainability.
+
+Screenshots
+Main Menu
+
+Card Combat
+
+Character Selection
+
+Demo
+
+A playable demo is planned for Steam.
+This repository contains selected source files and documentation for portfolio review.
+
+Notes
+
+This repository does not include full commercial assets, Steam configuration files, paid assets, or complete release content. It is intended as a technical portfolio sample.
