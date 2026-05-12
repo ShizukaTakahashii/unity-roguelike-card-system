@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e8ad9a20f065da44a86a1c4f0ba96de, type: 3}
+  m_Name: "\u64A4\u79BB\u8FD4\u56DE\u57FA\u5730"
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  cardName: "\u64A4\u79BB"
+  description: "\u7D27\u6025\u542F\u52A8\u4F20\u9001\u7A0B\u5E8F\u3002\u7A7A\u95F4\u6495\u88C2\u7684\u9707\u8361\u4F1A\u5927\u5E45\u589E\u52A0\u5D29\u574F\u5EA6\uFF0C\u4F46\u81F3\u5C11\u80FD\u56DE\u5BB6\u3002"
+  cardArt: {fileID: 2458459577131595945, guid: 373873452cfe68e49a78bfec7caeab84, type: 3}
+  actionType: 0
+  isOneTime: 0
+  healthChange: 0
+  cultivationChange: 0
+  moneyChange: 0
+  entropyChange: 0
+  defenseChange: 0
+  speedChange: 0
+  luckChange: 0
+  minLevelReq: 0
+  minSpeedReq: 0
+  minDefenseReq: 0
+  minLuckReq: 0
+  nextEvent: {fileID: 0}
+  failEvent: {fileID: 0}
+  targetZone: {fileID: 11400000, guid: 1023b16fd54d7a847912a27be48d67cf, type: 2}
+  triggerRandomCombat: 0
+  artifactID: 
+  artifactName: 
+  artifactDesc: 
+  targetNPC: {fileID: 0}
+  favorabilityChange: 0
+  isCombatCard: 0
+  requiredCultivation: 0
+  isChainCombat: 0
+  baseSuccessRate: 100
+  failHealthChange: 0
+  failEntropyChange: 0
+  failMoneyChange: 0
+  failDescription: 
